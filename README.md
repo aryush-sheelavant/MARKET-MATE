@@ -1,92 +1,41 @@
-# MarketMate 🚀
+MarketMate 🚀
 
-> **Connect. Create. Succeed.**  
-> MarketMate is a modern web platform connecting ambitious students with local businesses seeking fresh marketing talent.
+Connect. Create. Succeed.
 
----
+MarketMate is a modern web platform connecting ambitious students with local businesses seeking fresh marketing talent.
 
-## 🌟 Overview
+🌟 Overview
 
 MarketMate bridges the gap between local enterprises in need of marketing, creative, and digital growth services and students looking for hands-on, real-world portfolio experience.
 
-### Key Features
-- **Talent Discovery**: Filter and search through student profiles, skillsets, and portfolios.
-- **Project & Job Board**: Local businesses can post listings, campaigns, and short-term marketing gigs.
-- **Location-Based Matching**: Discover local opportunities and collaborate within your community.
-- **Modern Authentication & Session Management**: Built with Supabase SSR integration for secure user sessions.
-- **Responsive UI**: Sleek, mobile-friendly interface styled with Tailwind CSS and Radix UI primitives.
+Key Features
 
----
+Talent Discovery: Filter and search through student profiles, skillsets, and portfolios.
 
-## 🛠 Tech Stack
+Project & Job Board: Local businesses can post listings, campaigns, and short-term marketing gigs.
 
-- **Framework**: [Next.js](https://nextjs.org/) (App Router & Turbopack)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Components**: [shadcn/ui](https://ui.shadcn.com/) / [Radix UI](https://www.radix-ui.com/)
-- **Backend & Auth**: [Supabase](https://supabase.com/) (`@supabase/ssr`)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Deployment**: [Vercel](https://vercel.com/)
+Location-Based Matching: Discover local opportunities and collaborate within your community.
 
----
+Modern Authentication & Session Management: Built with Supabase SSR integration for secure user sessions.
 
-## 🚀 Getting Started
+Responsive UI: Sleek, mobile-friendly interface styled with Tailwind CSS and Radix UI primitives.
 
-### Prerequisites
+🛠 Tech Stack
 
-Ensure you have the following installed on your machine:
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
-- `npm`, `pnpm`, or `bun`
+Framework: Next.js (App Router & Turbopack)
 
-### 1. Clone the Repository
+Styling: Tailwind CSS
 
-```bash
-git clone https://github.com/aryush-sheelavant/MARKET-MATE.git
-cd MARKET-MATE
-```
+Components: shadcn/ui / Radix UI
 
-### 2. Install Dependencies
+Backend & Auth: Supabase (@supabase/ssr)
 
-```bash
-npm install
-# or
-bun install
-```
+Icons: Lucide React
 
-### 3. Environment Variables Setup
+Deployment: Vercel
 
-Create a `.env.local` file in the root directory:
+📁 Project Structure
 
-```bash
-touch .env.local
-```
-
-Add your Supabase project credentials:
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-> **Tip:** If linked to Vercel, you can pull your environment variables automatically using:
-> ```bash
-> vercel env pull .env.local
-> ```
-
-### 4. Run the Development Server
-
-```bash
-npm run dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
-
----
-
-## 📁 Project Structure
-
-```text
 ├── app/                  # Next.js App Router (pages, layouts, routes)
 ├── components/           # Reusable UI and layout components
 │   └── ui/               # Radix / shadcn/ui primitive components
@@ -97,31 +46,32 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 ├── next.config.mjs       # Next.js configuration
 ├── package.json          # Dependencies and scripts
 └── README.md             # Project documentation
-```
 
----
 
-## 📜 Available Scripts
+📜 Available Scripts
 
-- `npm run dev`: Starts the local development server with Turbopack.
-- `npm run build`: Compiles the production build.
-- `npm run start`: Runs the built production application.
-- `npm run lint`: Runs ESLint to check for code issues.
+npm run dev: Starts the local development server with Turbopack.
 
----
+npm run build: Compiles the production build.
 
-## 🤝 Contributing
+npm run start: Runs the built production application.
+
+npm run lint: Runs ESLint to check for code issues.
+
+🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
 
-1. Fork the Project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the Branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
+Fork the Project.
 
----
+Create your Feature Branch (git checkout -b feature/AmazingFeature).
 
-## 📄 License
+Commit your Changes (git commit -m 'Add some AmazingFeature').
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Push to the Branch (git push origin feature/AmazingFeature).
+
+Open a Pull Request.
+
+📄 License
+
+Distributed under the MIT License. See LICENSE for more information.
